@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6C4ECD68-E865-45C8-8690-AF78BDD92A66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{527BDB5F-AA2A-488A-A1FC-C9314450AF94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{3A8174E8-3D74-476A-9383-8D031C6124C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{3A8174E8-3D74-476A-9383-8D031C6124C9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0003C16F-DBB0-4298-9F05-339572F4C3CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3A8174E8-3D74-476A-9383-8D031C6124C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -34,9 +33,27 @@ Global
 		{3A8174E8-3D74-476A-9383-8D031C6124C9}.Release|x64.Build.0 = Release|Any CPU
 		{3A8174E8-3D74-476A-9383-8D031C6124C9}.Release|x86.ActiveCfg = Release|Any CPU
 		{3A8174E8-3D74-476A-9383-8D031C6124C9}.Release|x86.Build.0 = Release|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Debug|x64.Build.0 = Debug|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Debug|x86.Build.0 = Debug|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Release|x64.ActiveCfg = Release|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Release|x64.Build.0 = Release|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Release|x86.ActiveCfg = Release|Any CPU
+		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{527BDB5F-AA2A-488A-A1FC-C9314450AF94} = {6C4ECD68-E865-45C8-8690-AF78BDD92A66}
 		{3A8174E8-3D74-476A-9383-8D031C6124C9} = {527BDB5F-AA2A-488A-A1FC-C9314450AF94}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA6717AA-5EB4-4F51-A2BE-312A58BDE0D2}
 	EndGlobalSection
 EndGlobal
