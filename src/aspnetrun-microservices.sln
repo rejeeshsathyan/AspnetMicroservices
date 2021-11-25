@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Cat
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0003C16F-DBB0-4298-9F05-339572F4C3CA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{FE1E9C35-CE6A-4DE7-972F-5316160456BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,18 @@ Global
 		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Release|x64.Build.0 = Release|Any CPU
 		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Release|x86.ActiveCfg = Release|Any CPU
 		{0003C16F-DBB0-4298-9F05-339572F4C3CA}.Release|x86.Build.0 = Release|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Debug|x64.Build.0 = Debug|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Debug|x86.Build.0 = Debug|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Release|x64.ActiveCfg = Release|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Release|x64.Build.0 = Release|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Release|x86.ActiveCfg = Release|Any CPU
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +68,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{527BDB5F-AA2A-488A-A1FC-C9314450AF94} = {6C4ECD68-E865-45C8-8690-AF78BDD92A66}
 		{3A8174E8-3D74-476A-9383-8D031C6124C9} = {527BDB5F-AA2A-488A-A1FC-C9314450AF94}
+		{FE1E9C35-CE6A-4DE7-972F-5316160456BF} = {6C4ECD68-E865-45C8-8690-AF78BDD92A66}
+		{CC68BA60-A6CF-4982-ABC0-DB4AFAD701D1} = {FE1E9C35-CE6A-4DE7-972F-5316160456BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA6717AA-5EB4-4F51-A2BE-312A58BDE0D2}
